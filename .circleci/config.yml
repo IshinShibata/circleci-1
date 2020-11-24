@@ -4,12 +4,12 @@
     steps:
       - checkout
       - run:
-          name: 最初のステップ
+          name: '最初のステップ'
           command: |
             echo 'Hello World!'
             echo 'This is the delivery pipeline'
       - run:
-          name: コードの取得
+          name: 'コードの取得'
           command: |
             ls -al
             echo '^^^That should look familiar^^^'
